@@ -28,4 +28,4 @@
 Ensure that you have NodeJs preinstalled. We require node version > 7.x and npm version > 5.x
 
 ## Developed By:-
-#### @karanjuneja1106 @Tanishka1997 @littlestar642
+#### @littlestar642
