@@ -1,9 +1,13 @@
 var btn= document.querySelector('#signUp');
-
+var poster=document.querySelector('.poster');
+var video=document.querySelector('#video');
 btn.addEventListener('click',()=>{
     window.open('/sign_in','_self')
 }) 
-
+video.addEventListener('load',()=>{
+    poster.classList.add('hidden');
+    video.play();
+})
 var config = {
     apiKey: "AIzaSyBDOISEh81sFLFOVx4wuY-Bj3_Y35EZxoU",
     authDomain: "campusbuddy-d4179.firebaseapp.com",
@@ -13,7 +17,7 @@ var config = {
     messagingSenderId: "516708520642"
 };
 firebase.initializeApp(config);
-var list=document.querySelector('.ten.wide.column');
+var list=document.querySelector('.ten.wide.column .start');
 var database = firebase.database();
 initApp = function () {
     firebase.auth().onAuthStateChanged(function (user) {

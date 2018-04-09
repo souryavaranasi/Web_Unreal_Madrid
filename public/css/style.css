@@ -13,6 +13,10 @@
     left:10px;
     top:20vh;
 }
+.title_dashboard{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;    
+}
 .orderW{
     position: fixed;
     top:45vh;
