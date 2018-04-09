@@ -23,7 +23,27 @@
     position: fixed;
     top:35vh;
     left:40vw;
-    
+}
+.text_right_shift{
+    left:100px;
+    position: relative;
+}
+.text h1{
+    position: relative;
+    top:40vh;
+    font-size: 100px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hidden{
+    display: none;
+}
+.text h2{
+    position: relative;
+    top:1vh;
+    font-size: 70px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .rightSegment{
     position: fixed;

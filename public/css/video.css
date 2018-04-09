@@ -40,7 +40,7 @@
     width: 100%;
 }
 .filter{
-    background: rgba(0, 0, 0, 0.651);
+    background: rgba(95, 94, 94, 0.103);
     position: relative;
     top:0;
     bottom: 0;right:0;left:0;
@@ -48,7 +48,8 @@
 }
 .text{
     position: relative;
-    z-index: 3;
+    z-index: 999;
+    
     text-align: center;
     font-size: 80px;
 }

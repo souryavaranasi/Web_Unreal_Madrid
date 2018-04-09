@@ -58,17 +58,7 @@ initApp = function () {
         }
       });
       var food = document.querySelector('#food');
-      food.addEventListener('click', () => {
-        let name = firebase.auth().currentUser.displayName;
-        let imgUrl = firebase.auth().currentUser.photoURL;
-        let blog = {
-          name: name,
-          profile_picture: imgUrl,
-          talk:true,
-          timeStamp: new Date().getTime()
-        }
-        firebase.database().ref('users/' + userId).push().child('message').set(blog);
-      })
+      
 
 
       submitBtn.addEventListener('click', () => {

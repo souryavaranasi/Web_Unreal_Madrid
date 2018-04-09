@@ -51,6 +51,7 @@ initApp = function () {
                         <i class="like icon"></i>
                         Like
                       </span>
+                      <span class="text_right_shift">${z.name}</span>
                       <span class="right floated star">
                         <i class="star icon"></i>
                         Favorite

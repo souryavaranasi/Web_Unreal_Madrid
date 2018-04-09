@@ -78,8 +78,7 @@ var phone=document.querySelector('#phone');
     function write(){
         dosaV.innerHTML=order.dosa;
         eggV.innerHTML=order.egg;
-        bhelV.innerHTML=order.bhel;
-        order.phone=
+        bhelV.innerHTML=order.bhel;    
         orderString=JSON.stringify(order,undefined,2);
         console.log(orderString);
     }
