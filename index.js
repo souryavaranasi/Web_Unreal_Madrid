@@ -1,9 +1,10 @@
 const express=require('express');
 const app=express();
-const http=require('http').Server(app);
-var server = app.listen(3000);
-const io=require('socket.io').listen(server);
 const port=process.env.PORT || 3000;
+const http=require('http').Server(app);
+var server = app.listen(port);
+const io=require('socket.io').listen(server);
+
 const uniqid= require('uniqid');
 require('./globals'); 
 // require('./socketserver')(io,app);
@@ -65,3 +66,4 @@ app.get('/adminFood',(req,res)=>{
 app.get('/post',(req,res)=>{
     res.render('post.hbs');
 });
+
